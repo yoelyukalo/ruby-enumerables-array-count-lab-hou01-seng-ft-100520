@@ -1,6 +1,6 @@
 def count_strings(array)
   array.count do |strings|
-    array.class == StringsIO
+    array.class == StringlIO
   end
 end
 
