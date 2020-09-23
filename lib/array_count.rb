@@ -1,6 +1,6 @@
 def count_strings(array)
-  array.count do |String|
-    array.class == String
+  array.count do |word|
+    word = array.class == String
   end
 end
 
